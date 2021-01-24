@@ -1,3 +1,5 @@
+#Run the partition code first and then run McNemar_test-alg
+
 ptm <- proc.time()
 cr_col_sz<- read.csv(file="C:/Users/islam.m/Dropbox/Saiful/Discretization algorithm/cr_col_size.csv", header=TRUE, sep=",")
 
