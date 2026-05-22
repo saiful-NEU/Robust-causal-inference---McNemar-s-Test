@@ -48,7 +48,8 @@ C=sum(C_max)
 z=(B-C-1)/sqrt(B+C)
 
 #p-value
-pnorm(z,mean=0, sd=1, lower.tail=FALSE)
+#pnorm(z,mean=0, sd=1, lower.tail=FALSE)
+#Refer to the "Robust Policy Evaluation ..." Islam et al. for hypothesis test and p-value calculation
 
 
 proc.time() - ptm
