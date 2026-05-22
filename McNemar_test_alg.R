@@ -9,9 +9,9 @@ tr_col_sz<- read.csv(file="C:/Users/islam.m/Dropbox/Saiful/Discretization algori
 
 tr_oc<- read.csv(file="C:/Users/islam.m/Dropbox/Saiful/Discretization algorithm/tr_data.csv", header=TRUE, sep=",")
 
-#input of McNemar test algorithm:
+#input of the McNemar test algorithm:
 #1. Number of elements in each partition given in a partition x 1 column matrix (for both treatment and control group)
-#2. vectors of outcomes of each partition given in outcomes of #of elements x 1 vector, there will be #partition of such vectors
+#2. vectors of outcomes of each partition given in outcomes of #of elements x 1 vector, there will be # partitions of such vectors
 
 
 
